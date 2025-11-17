@@ -42,16 +42,6 @@ test:
 	@echo "Running environment tests..."
 	docker-compose exec vizdoom-rl python test_environment.py
 
-# # Train PPO agent
-# train-ppo:
-# 	@echo "Training PPO agent..."
-# 	docker-compose exec vizdoom-rl python -c "from train_vizdoom import train_ppo_cnn; train_ppo_cnn()"
-
-# # Train DQN agent
-# train-dqn:
-# 	@echo "Training DQN agent..."
-# 	docker-compose exec vizdoom-rl python -c "from train_vizdoom import train_dqn; train_dqn()"
-
 # Start TensorBoard
 tensorboard:
 	@echo "Starting TensorBoard..."
