@@ -1,5 +1,5 @@
 """
-Tests for Doom environment setup
+Tests the environment to make sure everything is working and not broken
 """
 
 import pytest
